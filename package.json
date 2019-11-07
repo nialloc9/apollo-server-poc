@@ -1,0 +1,18 @@
+{
+  "name": "apollo-server-poc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:nialloc9/apollo-server-poc.git",
+  "author": "<nialloc9@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.9.7",
+    "graphql": "^14.5.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "start": "ENGINE_API_KEY=service:comapollochattest:svXeW1yQXaK5jf1SopPFXQ nodemon ./server.js"
+  }
+}
